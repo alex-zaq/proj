@@ -3,13 +3,18 @@
 
 
 
-let a = true,
-    b = false,
-    c = false;
+const func1 = function(a,b){
+  console.log(a,b);
+};
 
 
 
 
 
-console.log(a || b && c);
+
+
+
+
+
+
 
